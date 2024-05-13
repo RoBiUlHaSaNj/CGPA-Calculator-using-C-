@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <vector>
 #include <iomanip>
@@ -55,8 +56,9 @@ double calculateCGPA(const vector<Grade>& grades) {
 
 int main() {
 
+cout << "----------As-salamu alaykum----------" << endl;
     int numCourses;
-     cout << "Range of Grading System" << endl;
+     cout << "Range of CGPA Grading System" << endl;
 
     cout << "------------------------------------------" << endl;
 
@@ -86,8 +88,9 @@ int main() {
 
     double cgpa = calculateCGPA(grades);
     if (cgpa != -1) {
-        cout << "Your CGPA is: " << fixed << setprecision(2) << cgpa << endl;
+        cout << " Alhamdulillah your CGPA is: " << fixed << setprecision(2) << cgpa << endl;
     }
+    cout<<"BEST WISHES";
 
     return 0;
 }
